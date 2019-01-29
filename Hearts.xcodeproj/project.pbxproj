@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31025C032200248600FE1AC8 /* SunscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31025C022200248600FE1AC8 /* SunscreenView.h */; };
-		31025C052200248600FE1AC8 /* SunscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31025C042200248600FE1AC8 /* SunscreenView.m */; };
+		31025C032200248600FE1AC8 /* HeartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31025C022200248600FE1AC8 /* HeartsView.h */; };
+		31025C052200248600FE1AC8 /* HeartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31025C042200248600FE1AC8 /* HeartsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31025BFF2200248600FE1AC8 /* Sunscreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sunscreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		31025C022200248600FE1AC8 /* SunscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunscreenView.h; sourceTree = "<group>"; };
-		31025C042200248600FE1AC8 /* SunscreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunscreenView.m; sourceTree = "<group>"; };
+		31025BFF2200248600FE1AC8 /* Hearts.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hearts.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		31025C022200248600FE1AC8 /* HeartsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartsView.h; sourceTree = "<group>"; };
+		31025C042200248600FE1AC8 /* HeartsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartsView.m; sourceTree = "<group>"; };
 		31025C062200248600FE1AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,7 +32,7 @@
 		31025BF52200248600FE1AC8 = {
 			isa = PBXGroup;
 			children = (
-				31025C012200248600FE1AC8 /* Sunscreen */,
+				31025C012200248600FE1AC8 /* Hearts */,
 				31025C002200248600FE1AC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,19 +40,19 @@
 		31025C002200248600FE1AC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31025BFF2200248600FE1AC8 /* Sunscreen.saver */,
+				31025BFF2200248600FE1AC8 /* Hearts.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31025C012200248600FE1AC8 /* Sunscreen */ = {
+		31025C012200248600FE1AC8 /* Hearts */ = {
 			isa = PBXGroup;
 			children = (
-				31025C022200248600FE1AC8 /* SunscreenView.h */,
-				31025C042200248600FE1AC8 /* SunscreenView.m */,
+				31025C022200248600FE1AC8 /* HeartsView.h */,
+				31025C042200248600FE1AC8 /* HeartsView.m */,
 				31025C062200248600FE1AC8 /* Info.plist */,
 			);
-			path = Sunscreen;
+			path = Hearts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,16 +62,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31025C032200248600FE1AC8 /* SunscreenView.h in Headers */,
+				31025C032200248600FE1AC8 /* HeartsView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31025BFE2200248600FE1AC8 /* Sunscreen */ = {
+		31025BFE2200248600FE1AC8 /* Hearts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31025C092200248600FE1AC8 /* Build configuration list for PBXNativeTarget "Sunscreen" */;
+			buildConfigurationList = 31025C092200248600FE1AC8 /* Build configuration list for PBXNativeTarget "Hearts" */;
 			buildPhases = (
 				31025BFA2200248600FE1AC8 /* Headers */,
 				31025BFB2200248600FE1AC8 /* Sources */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Sunscreen;
+			name = Hearts;
 			productName = Sunscreen;
-			productReference = 31025BFF2200248600FE1AC8 /* Sunscreen.saver */;
+			productReference = 31025BFF2200248600FE1AC8 /* Hearts.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31025BF92200248600FE1AC8 /* Build configuration list for PBXProject "Sunscreen" */;
+			buildConfigurationList = 31025BF92200248600FE1AC8 /* Build configuration list for PBXProject "Hearts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31025BFE2200248600FE1AC8 /* Sunscreen */,
+				31025BFE2200248600FE1AC8 /* Hearts */,
 			);
 		};
 /* End PBXProject section */
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31025C052200248600FE1AC8 /* SunscreenView.m in Sources */,
+				31025C052200248600FE1AC8 /* HeartsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +257,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H5M3S46W3U;
-				INFOPLIST_FILE = Sunscreen/Info.plist;
+				INFOPLIST_FILE = Hearts/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = celwell.Sunscreen;
+				PRODUCT_BUNDLE_IDENTIFIER = celwell.Hearts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -271,9 +271,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H5M3S46W3U;
-				INFOPLIST_FILE = Sunscreen/Info.plist;
+				INFOPLIST_FILE = Hearts/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = celwell.Sunscreen;
+				PRODUCT_BUNDLE_IDENTIFIER = celwell.Hearts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -282,7 +282,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31025BF92200248600FE1AC8 /* Build configuration list for PBXProject "Sunscreen" */ = {
+		31025BF92200248600FE1AC8 /* Build configuration list for PBXProject "Hearts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31025C072200248600FE1AC8 /* Debug */,
@@ -291,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31025C092200248600FE1AC8 /* Build configuration list for PBXNativeTarget "Sunscreen" */ = {
+		31025C092200248600FE1AC8 /* Build configuration list for PBXNativeTarget "Hearts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31025C0A2200248600FE1AC8 /* Debug */,
