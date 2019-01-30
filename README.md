@@ -1,4 +1,4 @@
-# Hearts
+# 💕Hearts
 OSX Screensaver that draws hearts of random sizes on the screen.
 
 ## Motivation / Rationale / Objectives
